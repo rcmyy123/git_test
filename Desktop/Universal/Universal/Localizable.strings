@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  Universal
+
+  Copyright © 2016 Sherdle. All rights reserved.
+*/
+
+"about_button" = "帮助与反馈";
+"about_dialog_title" = "帮助与反馈";
+"about_open" = "意见反馈";
+
+"about_purchase" = "Remove Ads";
+"purchase_dialog_title" = "Unlock App";
+"purchase_dialog_restore" = "Restore Purchase";
+"purchase_dialog_text" = "Unlocking this app will remove all Banner & Intersitital advertisements from this app.";
+"purchase_dialog_text_thanks" = "Thank you for your purchase! Please restart the app for all changes to take effect.";
+"purchase_dialog_text_fail" = "Purchase failed. Please try again later.";
+"purchase_dialog_restore_fail" = "Restore failed. Please try again later.";
+"purchase_dialog_restore_thanks" = "Successfully restored purchases. Please restart the app for all changes to take effect.";
+"buy" = "Buy";
+
+"more" = "更多";
+
+"ok" = "完成";
+"retry" = "重试";
+"error" = "错误";
+"cancel" = "取消";
+"open" = "打开";
+"message" = "信息";
+"loading" = "加载";
+"loading_process" = "正在加载";
+"search" = "搜索文章";
+"comments" = "评论";
+"pull_to_refresh" = "下拉刷新";
+"release_to_refresh" = "释放刷新";
+
+"image_save_succesfull" = "Image saved succesfully!";
+
+"parse_incomplete_title" = "Parsing Incomplete";
+"parse_incomplete_message" = "There was an error during the parsing of this feed. Not all of the feed items could parsed.";
+"parse_incomplete_button" = "Dismiss";
+
+"soundcloud_search" = "Soundcloud Search Results";
+"play" = "Play";
+
+"written_by" = "作者： %@";
+"published_on_wp" = "发布： %@ %@";
+"published_on" = "发布：n %@";

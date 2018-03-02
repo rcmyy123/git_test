@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="agU-9w-9Sn" userLabel="Footer view" customClass="AssistTableFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="v5p-8j-pSx">
+                    <rect key="frame" x="290" y="15" width="20" height="20"/>
+                </activityIndicatorView>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="全部加载完毕" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wdy-xF-ojR">
+                    <rect key="frame" x="247.5" y="15" width="104" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="v5p-8j-pSx" firstAttribute="centerX" secondItem="agU-9w-9Sn" secondAttribute="centerX" id="54x-75-Vfl"/>
+                <constraint firstItem="Wdy-xF-ojR" firstAttribute="centerX" secondItem="agU-9w-9Sn" secondAttribute="centerX" id="9Q9-qn-KVm"/>
+                <constraint firstItem="v5p-8j-pSx" firstAttribute="centerY" secondItem="agU-9w-9Sn" secondAttribute="centerY" id="Ii7-9d-xT3"/>
+                <constraint firstItem="Wdy-xF-ojR" firstAttribute="centerY" secondItem="agU-9w-9Sn" secondAttribute="centerY" id="Ru7-c4-Pke"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="activityIndicator" destination="v5p-8j-pSx" id="Iud-Qb-1d8"/>
+                <outlet property="infoLabel" destination="Wdy-xF-ojR" id="Bff-5N-EXb"/>
+            </connections>
+            <point key="canvasLocation" x="358" y="520"/>
+        </view>
+    </objects>
+</document>
