@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="o8i-Fe-zTo" userLabel="Assist Table Header View" customClass="AssistTableHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2y7-Z8-RD3">
+                    <rect key="frame" x="0.0" y="0.0" width="422" height="55"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="下拉刷新" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="g4I-fQ-jVF">
+                            <rect key="frame" x="177" y="17" width="69.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="1Y4-7H-rqe">
+                            <rect key="frame" x="149" y="18" width="20" height="20"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="1Y4-7H-rqe" firstAttribute="centerY" secondItem="2y7-Z8-RD3" secondAttribute="centerY" id="ByZ-Mg-IBs"/>
+                        <constraint firstItem="g4I-fQ-jVF" firstAttribute="leading" secondItem="1Y4-7H-rqe" secondAttribute="trailing" constant="8" id="ItP-kM-yxH"/>
+                        <constraint firstItem="g4I-fQ-jVF" firstAttribute="centerY" secondItem="2y7-Z8-RD3" secondAttribute="centerY" id="hWO-DM-EPc"/>
+                        <constraint firstItem="g4I-fQ-jVF" firstAttribute="centerX" secondItem="2y7-Z8-RD3" secondAttribute="centerX" id="tcA-8m-WqG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2y7-Z8-RD3" firstAttribute="leading" secondItem="o8i-Fe-zTo" secondAttribute="leading" id="8tk-pf-SYU"/>
+                <constraint firstAttribute="bottom" secondItem="2y7-Z8-RD3" secondAttribute="bottom" id="D7W-La-wR6"/>
+                <constraint firstAttribute="trailing" secondItem="2y7-Z8-RD3" secondAttribute="trailing" id="E90-1W-jsV"/>
+                <constraint firstItem="2y7-Z8-RD3" firstAttribute="top" secondItem="o8i-Fe-zTo" secondAttribute="top" id="euA-zI-jpe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="activityIndicator" destination="1Y4-7H-rqe" id="shz-2J-jkp"/>
+                <outlet property="title" destination="g4I-fQ-jVF" id="lE9-H0-WWp"/>
+            </connections>
+            <point key="canvasLocation" x="382" y="440.5"/>
+        </view>
+    </objects>
+</document>
