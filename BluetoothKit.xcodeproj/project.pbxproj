@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A105B626B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A026B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift */; };
+		91A105B726B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A026B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift */; };
+		91A105B826B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A026B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift */; };
+		91A105B926B1A6F700CB3209 /* BKDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A126B1A6F700CB3209 /* BKDiscovery.swift */; };
+		91A105BA26B1A6F700CB3209 /* BKDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A126B1A6F700CB3209 /* BKDiscovery.swift */; };
+		91A105BB26B1A6F700CB3209 /* BKDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A126B1A6F700CB3209 /* BKDiscovery.swift */; };
+		91A105BC26B1A6F700CB3209 /* BKPeripheralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A226B1A6F700CB3209 /* BKPeripheralStateMachine.swift */; };
+		91A105BD26B1A6F700CB3209 /* BKPeripheralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A226B1A6F700CB3209 /* BKPeripheralStateMachine.swift */; };
+		91A105BE26B1A6F700CB3209 /* BKPeripheralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A226B1A6F700CB3209 /* BKPeripheralStateMachine.swift */; };
+		91A105BF26B1A6F700CB3209 /* BKPeripheralConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A326B1A6F700CB3209 /* BKPeripheralConfiguration.swift */; };
+		91A105C026B1A6F700CB3209 /* BKPeripheralConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A326B1A6F700CB3209 /* BKPeripheralConfiguration.swift */; };
+		91A105C126B1A6F700CB3209 /* BKPeripheralConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A326B1A6F700CB3209 /* BKPeripheralConfiguration.swift */; };
+		91A105C226B1A6F700CB3209 /* BKErrorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A426B1A6F700CB3209 /* BKErrorDomain.swift */; };
+		91A105C326B1A6F700CB3209 /* BKErrorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A426B1A6F700CB3209 /* BKErrorDomain.swift */; };
+		91A105C426B1A6F700CB3209 /* BKErrorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A426B1A6F700CB3209 /* BKErrorDomain.swift */; };
+		91A105C526B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A526B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift */; };
+		91A105C626B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A526B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift */; };
+		91A105C726B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A526B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift */; };
+		91A105C826B1A6F700CB3209 /* BKCentralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A626B1A6F700CB3209 /* BKCentralStateMachine.swift */; };
+		91A105C926B1A6F700CB3209 /* BKCentralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A626B1A6F700CB3209 /* BKCentralStateMachine.swift */; };
+		91A105CA26B1A6F700CB3209 /* BKCentralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A626B1A6F700CB3209 /* BKCentralStateMachine.swift */; };
+		91A105CB26B1A6F700CB3209 /* BKAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A726B1A6F700CB3209 /* BKAvailability.swift */; };
+		91A105CC26B1A6F700CB3209 /* BKAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A726B1A6F700CB3209 /* BKAvailability.swift */; };
+		91A105CD26B1A6F700CB3209 /* BKAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A726B1A6F700CB3209 /* BKAvailability.swift */; };
+		91A105CE26B1A6F700CB3209 /* BKRemoteCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A826B1A6F700CB3209 /* BKRemoteCentral.swift */; };
+		91A105CF26B1A6F700CB3209 /* BKRemoteCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A826B1A6F700CB3209 /* BKRemoteCentral.swift */; };
+		91A105D026B1A6F700CB3209 /* BKRemoteCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A826B1A6F700CB3209 /* BKRemoteCentral.swift */; };
+		91A105D126B1A6F700CB3209 /* BKRemotePeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A926B1A6F700CB3209 /* BKRemotePeer.swift */; };
+		91A105D226B1A6F700CB3209 /* BKRemotePeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A926B1A6F700CB3209 /* BKRemotePeer.swift */; };
+		91A105D326B1A6F700CB3209 /* BKRemotePeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105A926B1A6F700CB3209 /* BKRemotePeer.swift */; };
+		91A105D426B1A6F700CB3209 /* BKContinuousScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AA26B1A6F700CB3209 /* BKContinuousScanner.swift */; };
+		91A105D526B1A6F700CB3209 /* BKContinuousScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AA26B1A6F700CB3209 /* BKContinuousScanner.swift */; };
+		91A105D626B1A6F700CB3209 /* BKContinuousScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AA26B1A6F700CB3209 /* BKContinuousScanner.swift */; };
+		91A105D726B1A6F700CB3209 /* BKScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AB26B1A6F700CB3209 /* BKScanner.swift */; };
+		91A105D826B1A6F700CB3209 /* BKScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AB26B1A6F700CB3209 /* BKScanner.swift */; };
+		91A105D926B1A6F700CB3209 /* BKScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AB26B1A6F700CB3209 /* BKScanner.swift */; };
+		91A105DA26B1A6F700CB3209 /* BKConnectionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AC26B1A6F700CB3209 /* BKConnectionPool.swift */; };
+		91A105DB26B1A6F700CB3209 /* BKConnectionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AC26B1A6F700CB3209 /* BKConnectionPool.swift */; };
+		91A105DC26B1A6F700CB3209 /* BKConnectionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AC26B1A6F700CB3209 /* BKConnectionPool.swift */; };
+		91A105DD26B1A6F700CB3209 /* BKPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AD26B1A6F700CB3209 /* BKPeripheral.swift */; };
+		91A105DE26B1A6F700CB3209 /* BKPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AD26B1A6F700CB3209 /* BKPeripheral.swift */; };
+		91A105DF26B1A6F700CB3209 /* BKPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AD26B1A6F700CB3209 /* BKPeripheral.swift */; };
+		91A105E026B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AE26B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift */; };
+		91A105E126B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AE26B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift */; };
+		91A105E226B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AE26B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift */; };
+		91A105E326B1A6F700CB3209 /* BKCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AF26B1A6F700CB3209 /* BKCentral.swift */; };
+		91A105E426B1A6F700CB3209 /* BKCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AF26B1A6F700CB3209 /* BKCentral.swift */; };
+		91A105E526B1A6F700CB3209 /* BKCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105AF26B1A6F700CB3209 /* BKCentral.swift */; };
+		91A105E626B1A6F700CB3209 /* BKSendDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B026B1A6F700CB3209 /* BKSendDataTask.swift */; };
+		91A105E726B1A6F700CB3209 /* BKSendDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B026B1A6F700CB3209 /* BKSendDataTask.swift */; };
+		91A105E826B1A6F700CB3209 /* BKSendDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B026B1A6F700CB3209 /* BKSendDataTask.swift */; };
+		91A105E926B1A6F700CB3209 /* BKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B126B1A6F700CB3209 /* BKConfiguration.swift */; };
+		91A105EA26B1A6F700CB3209 /* BKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B126B1A6F700CB3209 /* BKConfiguration.swift */; };
+		91A105EB26B1A6F700CB3209 /* BKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B126B1A6F700CB3209 /* BKConfiguration.swift */; };
+		91A105EC26B1A6F700CB3209 /* BKPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B226B1A6F700CB3209 /* BKPeer.swift */; };
+		91A105ED26B1A6F700CB3209 /* BKPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B226B1A6F700CB3209 /* BKPeer.swift */; };
+		91A105EE26B1A6F700CB3209 /* BKPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B226B1A6F700CB3209 /* BKPeer.swift */; };
+		91A105EF26B1A6F700CB3209 /* BKRemotePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B326B1A6F700CB3209 /* BKRemotePeripheral.swift */; };
+		91A105F026B1A6F700CB3209 /* BKRemotePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B326B1A6F700CB3209 /* BKRemotePeripheral.swift */; };
+		91A105F126B1A6F700CB3209 /* BKRemotePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B326B1A6F700CB3209 /* BKRemotePeripheral.swift */; };
+		91A105F226B1A6F700CB3209 /* BKDiscoveriesChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B426B1A6F700CB3209 /* BKDiscoveriesChange.swift */; };
+		91A105F326B1A6F700CB3209 /* BKDiscoveriesChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B426B1A6F700CB3209 /* BKDiscoveriesChange.swift */; };
+		91A105F426B1A6F700CB3209 /* BKDiscoveriesChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B426B1A6F700CB3209 /* BKDiscoveriesChange.swift */; };
+		91A105F526B1A6F700CB3209 /* BKConnectionAttempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B526B1A6F700CB3209 /* BKConnectionAttempt.swift */; };
+		91A105F626B1A6F700CB3209 /* BKConnectionAttempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B526B1A6F700CB3209 /* BKConnectionAttempt.swift */; };
+		91A105F726B1A6F700CB3209 /* BKConnectionAttempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A105B526B1A6F700CB3209 /* BKConnectionAttempt.swift */; };
+		C64CDE0E1BE4C57400F72549 /* BluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C687E3C31B8B4CF100B702D8 /* BluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C687E3C41B8B4CF100B702D8 /* BluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C687E3C31B8B4CF100B702D8 /* BluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6ED86DC1BA9567A00C9B70B /* BluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C687E3C31B8B4CF100B702D8 /* BluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91A105A026B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCBCentralManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		91A105A126B1A6F700CB3209 /* BKDiscovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKDiscovery.swift; sourceTree = "<group>"; };
+		91A105A226B1A6F700CB3209 /* BKPeripheralStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKPeripheralStateMachine.swift; sourceTree = "<group>"; };
+		91A105A326B1A6F700CB3209 /* BKPeripheralConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKPeripheralConfiguration.swift; sourceTree = "<group>"; };
+		91A105A426B1A6F700CB3209 /* BKErrorDomain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKErrorDomain.swift; sourceTree = "<group>"; };
+		91A105A526B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCBPeripheralManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		91A105A626B1A6F700CB3209 /* BKCentralStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCentralStateMachine.swift; sourceTree = "<group>"; };
+		91A105A726B1A6F700CB3209 /* BKAvailability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKAvailability.swift; sourceTree = "<group>"; };
+		91A105A826B1A6F700CB3209 /* BKRemoteCentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKRemoteCentral.swift; sourceTree = "<group>"; };
+		91A105A926B1A6F700CB3209 /* BKRemotePeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKRemotePeer.swift; sourceTree = "<group>"; };
+		91A105AA26B1A6F700CB3209 /* BKContinuousScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKContinuousScanner.swift; sourceTree = "<group>"; };
+		91A105AB26B1A6F700CB3209 /* BKScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKScanner.swift; sourceTree = "<group>"; };
+		91A105AC26B1A6F700CB3209 /* BKConnectionPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKConnectionPool.swift; sourceTree = "<group>"; };
+		91A105AD26B1A6F700CB3209 /* BKPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKPeripheral.swift; sourceTree = "<group>"; };
+		91A105AE26B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCBPeripheralDelegateProxy.swift; sourceTree = "<group>"; };
+		91A105AF26B1A6F700CB3209 /* BKCentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCentral.swift; sourceTree = "<group>"; };
+		91A105B026B1A6F700CB3209 /* BKSendDataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKSendDataTask.swift; sourceTree = "<group>"; };
+		91A105B126B1A6F700CB3209 /* BKConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKConfiguration.swift; sourceTree = "<group>"; };
+		91A105B226B1A6F700CB3209 /* BKPeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKPeer.swift; sourceTree = "<group>"; };
+		91A105B326B1A6F700CB3209 /* BKRemotePeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKRemotePeripheral.swift; sourceTree = "<group>"; };
+		91A105B426B1A6F700CB3209 /* BKDiscoveriesChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKDiscoveriesChange.swift; sourceTree = "<group>"; };
+		91A105B526B1A6F700CB3209 /* BKConnectionAttempt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKConnectionAttempt.swift; sourceTree = "<group>"; };
+		C64CDDF31BE4C46A00F72549 /* BluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C687E3981B8B496400B702D8 /* BluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C687E3A41B8B4A2800B702D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C687E3C31B8B4CF100B702D8 /* BluetoothKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothKit.h; sourceTree = "<group>"; };
+		C6ED86C11BA955A600C9B70B /* BluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C64CDDEF1BE4C46A00F72549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C687E3941B8B496400B702D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6ED86BD1BA955A600C9B70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91A1059F26B1A6F700CB3209 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				91A105A026B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift */,
+				91A105A126B1A6F700CB3209 /* BKDiscovery.swift */,
+				91A105A226B1A6F700CB3209 /* BKPeripheralStateMachine.swift */,
+				91A105A326B1A6F700CB3209 /* BKPeripheralConfiguration.swift */,
+				91A105A426B1A6F700CB3209 /* BKErrorDomain.swift */,
+				91A105A526B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift */,
+				91A105A626B1A6F700CB3209 /* BKCentralStateMachine.swift */,
+				91A105A726B1A6F700CB3209 /* BKAvailability.swift */,
+				91A105A826B1A6F700CB3209 /* BKRemoteCentral.swift */,
+				91A105A926B1A6F700CB3209 /* BKRemotePeer.swift */,
+				91A105AA26B1A6F700CB3209 /* BKContinuousScanner.swift */,
+				91A105AB26B1A6F700CB3209 /* BKScanner.swift */,
+				91A105AC26B1A6F700CB3209 /* BKConnectionPool.swift */,
+				91A105AD26B1A6F700CB3209 /* BKPeripheral.swift */,
+				91A105AE26B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift */,
+				91A105AF26B1A6F700CB3209 /* BKCentral.swift */,
+				91A105B026B1A6F700CB3209 /* BKSendDataTask.swift */,
+				91A105B126B1A6F700CB3209 /* BKConfiguration.swift */,
+				91A105B226B1A6F700CB3209 /* BKPeer.swift */,
+				91A105B326B1A6F700CB3209 /* BKRemotePeripheral.swift */,
+				91A105B426B1A6F700CB3209 /* BKDiscoveriesChange.swift */,
+				91A105B526B1A6F700CB3209 /* BKConnectionAttempt.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C687E38E1B8B496400B702D8 = {
+			isa = PBXGroup;
+			children = (
+				C687E3C21B8B4CF100B702D8 /* Umbrella */,
+				91A1059F26B1A6F700CB3209 /* Source */,
+				C687E3A31B8B4A2800B702D8 /* Resources */,
+				C687E3991B8B496400B702D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C687E3991B8B496400B702D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C687E3981B8B496400B702D8 /* BluetoothKit.framework */,
+				C6ED86C11BA955A600C9B70B /* BluetoothKit.framework */,
+				C64CDDF31BE4C46A00F72549 /* BluetoothKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C687E3A31B8B4A2800B702D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C687E3A41B8B4A2800B702D8 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C687E3C21B8B4CF100B702D8 /* Umbrella */ = {
+			isa = PBXGroup;
+			children = (
+				C687E3C31B8B4CF100B702D8 /* BluetoothKit.h */,
+			);
+			path = Umbrella;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C64CDDF01BE4C46A00F72549 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64CDE0E1BE4C57400F72549 /* BluetoothKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C687E3951B8B496400B702D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C687E3C41B8B4CF100B702D8 /* BluetoothKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6ED86BE1BA955A600C9B70B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6ED86DC1BA9567A00C9B70B /* BluetoothKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C64CDDF21BE4C46A00F72549 /* BluetoothKit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64CDDFA1BE4C46A00F72549 /* Build configuration list for PBXNativeTarget "BluetoothKit tvOS" */;
+			buildPhases = (
+				C64CDDEE1BE4C46A00F72549 /* Sources */,
+				C64CDDEF1BE4C46A00F72549 /* Frameworks */,
+				C64CDDF01BE4C46A00F72549 /* Headers */,
+				C64CDDF11BE4C46A00F72549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BluetoothKit tvOS";
+			productName = BluetoothKit;
+			productReference = C64CDDF31BE4C46A00F72549 /* BluetoothKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C687E3971B8B496400B702D8 /* BluetoothKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C687E3A01B8B496400B702D8 /* Build configuration list for PBXNativeTarget "BluetoothKit iOS" */;
+			buildPhases = (
+				C69063981CECA84C00EF67A3 /* SwiftLint Autocorrect */,
+				C687E3931B8B496400B702D8 /* Sources */,
+				C687E3941B8B496400B702D8 /* Frameworks */,
+				C687E3951B8B496400B702D8 /* Headers */,
+				C687E3961B8B496400B702D8 /* Resources */,
+				C69063971CECA83B00EF67A3 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BluetoothKit iOS";
+			productName = BluetoothKit;
+			productReference = C687E3981B8B496400B702D8 /* BluetoothKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6ED86C01BA955A600C9B70B /* BluetoothKit OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6ED86C61BA955A600C9B70B /* Build configuration list for PBXNativeTarget "BluetoothKit OSX" */;
+			buildPhases = (
+				C6ED86BC1BA955A600C9B70B /* Sources */,
+				C6ED86BD1BA955A600C9B70B /* Frameworks */,
+				C6ED86BE1BA955A600C9B70B /* Headers */,
+				C6ED86BF1BA955A600C9B70B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BluetoothKit OSX";
+			productName = BluetoothKit;
+			productReference = C6ED86C11BA955A600C9B70B /* BluetoothKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C687E38F1B8B496400B702D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Rasmus Taulborg Hummelmose";
+				TargetAttributes = {
+					C64CDDF21BE4C46A00F72549 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C687E3971B8B496400B702D8 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+					};
+					C6ED86C01BA955A600C9B70B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C687E3921B8B496400B702D8 /* Build configuration list for PBXProject "BluetoothKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C687E38E1B8B496400B702D8;
+			productRefGroup = C687E3991B8B496400B702D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C687E3971B8B496400B702D8 /* BluetoothKit iOS */,
+				C6ED86C01BA955A600C9B70B /* BluetoothKit OSX */,
+				C64CDDF21BE4C46A00F72549 /* BluetoothKit tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C64CDDF11BE4C46A00F72549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C687E3961B8B496400B702D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6ED86BF1BA955A600C9B70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C69063971CECA83B00EF67A3 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\nswiftlint\nelse\necho \"Download SwiftLint: https://github.com/realm/SwiftLint\"\nfi";
+		};
+		C69063981CECA84C00EF67A3 /* SwiftLint Autocorrect */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Autocorrect";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\nswiftlint autocorrect\nelse\necho \"Download SwiftLint: https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C64CDDEE1BE4C46A00F72549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A105E526B1A6F700CB3209 /* BKCentral.swift in Sources */,
+				91A105E826B1A6F700CB3209 /* BKSendDataTask.swift in Sources */,
+				91A105F426B1A6F700CB3209 /* BKDiscoveriesChange.swift in Sources */,
+				91A105DF26B1A6F700CB3209 /* BKPeripheral.swift in Sources */,
+				91A105EB26B1A6F700CB3209 /* BKConfiguration.swift in Sources */,
+				91A105DC26B1A6F700CB3209 /* BKConnectionPool.swift in Sources */,
+				91A105BE26B1A6F700CB3209 /* BKPeripheralStateMachine.swift in Sources */,
+				91A105D926B1A6F700CB3209 /* BKScanner.swift in Sources */,
+				91A105B826B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift in Sources */,
+				91A105D626B1A6F700CB3209 /* BKContinuousScanner.swift in Sources */,
+				91A105F726B1A6F700CB3209 /* BKConnectionAttempt.swift in Sources */,
+				91A105BB26B1A6F700CB3209 /* BKDiscovery.swift in Sources */,
+				91A105C726B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift in Sources */,
+				91A105C126B1A6F700CB3209 /* BKPeripheralConfiguration.swift in Sources */,
+				91A105F126B1A6F700CB3209 /* BKRemotePeripheral.swift in Sources */,
+				91A105EE26B1A6F700CB3209 /* BKPeer.swift in Sources */,
+				91A105D026B1A6F700CB3209 /* BKRemoteCentral.swift in Sources */,
+				91A105CA26B1A6F700CB3209 /* BKCentralStateMachine.swift in Sources */,
+				91A105E226B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift in Sources */,
+				91A105C426B1A6F700CB3209 /* BKErrorDomain.swift in Sources */,
+				91A105D326B1A6F700CB3209 /* BKRemotePeer.swift in Sources */,
+				91A105CD26B1A6F700CB3209 /* BKAvailability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C687E3931B8B496400B702D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A105E326B1A6F700CB3209 /* BKCentral.swift in Sources */,
+				91A105E626B1A6F700CB3209 /* BKSendDataTask.swift in Sources */,
+				91A105F226B1A6F700CB3209 /* BKDiscoveriesChange.swift in Sources */,
+				91A105DD26B1A6F700CB3209 /* BKPeripheral.swift in Sources */,
+				91A105E926B1A6F700CB3209 /* BKConfiguration.swift in Sources */,
+				91A105DA26B1A6F700CB3209 /* BKConnectionPool.swift in Sources */,
+				91A105BC26B1A6F700CB3209 /* BKPeripheralStateMachine.swift in Sources */,
+				91A105D726B1A6F700CB3209 /* BKScanner.swift in Sources */,
+				91A105B626B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift in Sources */,
+				91A105D426B1A6F700CB3209 /* BKContinuousScanner.swift in Sources */,
+				91A105F526B1A6F700CB3209 /* BKConnectionAttempt.swift in Sources */,
+				91A105B926B1A6F700CB3209 /* BKDiscovery.swift in Sources */,
+				91A105C526B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift in Sources */,
+				91A105BF26B1A6F700CB3209 /* BKPeripheralConfiguration.swift in Sources */,
+				91A105EF26B1A6F700CB3209 /* BKRemotePeripheral.swift in Sources */,
+				91A105EC26B1A6F700CB3209 /* BKPeer.swift in Sources */,
+				91A105CE26B1A6F700CB3209 /* BKRemoteCentral.swift in Sources */,
+				91A105C826B1A6F700CB3209 /* BKCentralStateMachine.swift in Sources */,
+				91A105E026B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift in Sources */,
+				91A105C226B1A6F700CB3209 /* BKErrorDomain.swift in Sources */,
+				91A105D126B1A6F700CB3209 /* BKRemotePeer.swift in Sources */,
+				91A105CB26B1A6F700CB3209 /* BKAvailability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6ED86BC1BA955A600C9B70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A105E426B1A6F700CB3209 /* BKCentral.swift in Sources */,
+				91A105E726B1A6F700CB3209 /* BKSendDataTask.swift in Sources */,
+				91A105F326B1A6F700CB3209 /* BKDiscoveriesChange.swift in Sources */,
+				91A105DE26B1A6F700CB3209 /* BKPeripheral.swift in Sources */,
+				91A105EA26B1A6F700CB3209 /* BKConfiguration.swift in Sources */,
+				91A105DB26B1A6F700CB3209 /* BKConnectionPool.swift in Sources */,
+				91A105BD26B1A6F700CB3209 /* BKPeripheralStateMachine.swift in Sources */,
+				91A105D826B1A6F700CB3209 /* BKScanner.swift in Sources */,
+				91A105B726B1A6F700CB3209 /* BKCBCentralManagerDelegateProxy.swift in Sources */,
+				91A105D526B1A6F700CB3209 /* BKContinuousScanner.swift in Sources */,
+				91A105F626B1A6F700CB3209 /* BKConnectionAttempt.swift in Sources */,
+				91A105BA26B1A6F700CB3209 /* BKDiscovery.swift in Sources */,
+				91A105C626B1A6F700CB3209 /* BKCBPeripheralManagerDelegateProxy.swift in Sources */,
+				91A105C026B1A6F700CB3209 /* BKPeripheralConfiguration.swift in Sources */,
+				91A105F026B1A6F700CB3209 /* BKRemotePeripheral.swift in Sources */,
+				91A105ED26B1A6F700CB3209 /* BKPeer.swift in Sources */,
+				91A105CF26B1A6F700CB3209 /* BKRemoteCentral.swift in Sources */,
+				91A105C926B1A6F700CB3209 /* BKCentralStateMachine.swift in Sources */,
+				91A105E126B1A6F700CB3209 /* BKCBPeripheralDelegateProxy.swift in Sources */,
+				91A105C326B1A6F700CB3209 /* BKErrorDomain.swift in Sources */,
+				91A105D226B1A6F700CB3209 /* BKRemotePeer.swift in Sources */,
+				91A105CC26B1A6F700CB3209 /* BKAvailability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C64CDDF81BE4C46A00F72549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasmusth.BluetoothKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		C64CDDF91BE4C46A00F72549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasmusth.BluetoothKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		C687E39E1B8B496400B702D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = BluetoothKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C687E39F1B8B496400B702D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BluetoothKit;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C687E3A11B8B496400B702D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasmusth.BluetoothKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C687E3A21B8B496400B702D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasmusth.BluetoothKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C6ED86C71BA955A600C9B70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasmusth.BluetoothKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C6ED86C81BA955A600C9B70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasmusth.BluetoothKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C64CDDFA1BE4C46A00F72549 /* Build configuration list for PBXNativeTarget "BluetoothKit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64CDDF81BE4C46A00F72549 /* Debug */,
+				C64CDDF91BE4C46A00F72549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C687E3921B8B496400B702D8 /* Build configuration list for PBXProject "BluetoothKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C687E39E1B8B496400B702D8 /* Debug */,
+				C687E39F1B8B496400B702D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C687E3A01B8B496400B702D8 /* Build configuration list for PBXNativeTarget "BluetoothKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C687E3A11B8B496400B702D8 /* Debug */,
+				C687E3A21B8B496400B702D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6ED86C61BA955A600C9B70B /* Build configuration list for PBXNativeTarget "BluetoothKit OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6ED86C71BA955A600C9B70B /* Debug */,
+				C6ED86C81BA955A600C9B70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C687E38F1B8B496400B702D8 /* Project object */;
+}
